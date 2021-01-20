@@ -1,0 +1,46 @@
+{
+    "development": {
+        "config_id": "development",
+        "app_name": "NodeTest",
+        "app_desc": "NodeTest",
+        "node_port": 2020,
+        "json_indentation": 4,
+        "host": "localhost",
+        "swaggerURL": "localhost:2020",
+        "basicAuthUser": "",
+        "basicAuthKey": "",
+        "database": "NodeTest-dev",
+        "cloudinary": {
+            "cloud_name": "mobility-technology",
+            "api_key": "162251892663188",
+            "api_secret": "oaXBXVEWNeLKtVY2pnP6XCxu7XA"
+        }
+    },
+    "staging": {
+        "config_id": "staging",
+        "node_port": 1507,
+        "database": "NodeTest-stag",
+        "host": "localhost",
+        "swaggerURL": "",
+        "basicAuthUser": "",
+        "basicAuthKey": "",
+        "cloudinary": {
+            "cloud_name": "mobility-technology",
+            "api_key": "162251892663188",
+            "api_secret": "oaXBXVEWNeLKtVY2pnP6XCxu7XA"
+        }
+    },
+    "production": {
+        "config_id": "production",
+        "node_port": 1600,
+        "database": "NodeTest-web",
+        "host": "localhost",
+        "basicAuthUser": "",
+        "basicAuthKey": "",
+        "cloudinary": {
+            "cloud_name": "",
+            "api_key": "",
+            "api_secret": ""
+        }
+    }
+}
